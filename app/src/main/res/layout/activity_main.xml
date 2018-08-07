@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <cxy.com.loadviewlib.LoadingView
+        android:id="@+id/loadingview"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="15dp"/>
+    <machine.yzy.cjlm.restartservice.view.TitanicTextView
+        android:id="@+id/txt_load"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#212121"
+        android:text="伊卓园售卖程序正在初始化.."
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/loadingview"
+        android:textSize="70sp"/>
+
+    <ProgressBar
+        android:id="@+id/pb"
+        android:layout_width="600dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txt_load"
+        android:layout_marginTop="30dp"
+        android:max="100"
+        style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+        android:progressDrawable="@drawable/bg_progressbar"/>
+
+</RelativeLayout>

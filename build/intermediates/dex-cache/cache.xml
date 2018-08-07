@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\android\protect\RestartService\loadviewlib\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="88e4ff8c5a820a8116f9cbd5928da21e58001949">
+        <dex dex="E:\android\protect\RestartService\app\build\intermediates\pre-dexed\release\classes_4d5117b65b915d7d46a01c044f00bc052f98cfc5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\android\protect\RestartService\app\libs\eventbus-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="E:\android\protect\RestartService\app\build\intermediates\pre-dexed\release\eventbus-3.0.0_736b00ce74aa3a60d3e893851898495008a6b11e.jar" />
+    </item>
+
+</items>

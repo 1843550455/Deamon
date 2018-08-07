@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RestartService</string>
+
+    <string name="accessibility_service_description">自动安装伊卓园程序。</string>
+</resources>
